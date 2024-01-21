@@ -9,9 +9,9 @@ Each file comprises measurements of 100 different genes (rows) in 100 different 
 
 Step 1. Decompressed the zip data file and iterated through the directory to concatenate all files into one data frame. 
 
-# define directory name to locate files
-mydir = '/Users/ruteayalew/Downloads/assignment1/data'
-#/Users/ruteayalew/Downloads/assignment1/data/file_1.csv
+    # define directory name to locate files
+    mydir = '/Users/ruteayalew/Downloads/assignment1/data'
+    #/Users/ruteayalew/Downloads/assignment1/data/file_1.csv
 
 
 Step 2: Evaluated the data for missing values and variance.
