@@ -11,8 +11,8 @@ Step 1. Decompressed the zip data file and iterated through the directory to con
 
 Step 2: Evaluated the data for missing values and variance.
 
-    Reflection:
-    The data quality is acceptable with only 2 missing values out of 100,000 in total. Before aggregating the files into one, I identified the missing data points and imputed them with 0. I acknowledge that filling the values with the globalized variable of 0 DOES bias the data mining results. A preferred method would have been to use a linear regression model to predict the values so as not to skew mean calculations later on since 0 is an extreme value and means are sensitive to that. Due to the significant variance of Gene measurements between cells, I normalized averaged values.
+Reflection:
+The data quality is acceptable with only 2 missing values out of 100,000 in total. Before aggregating the files into one, I identified the missing data points and imputed them with 0. I acknowledge that filling the values with the globalized variable of 0 DOES bias the data mining results. A preferred method would have been to use a linear regression model to predict the values so as not to skew mean calculations later on since 0 is an extreme value and means are sensitive to that. Due to the significant variance of Gene measurements between cells, I normalized averaged values.
     
 Step 3: Aggregate by averages using the index to produce averaged results saved to a new file. 
 
