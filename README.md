@@ -1,6 +1,6 @@
 # gene_cells_phase1-2
 
-Novel data mining task following Phase I &amp; II of CRISP-DM to assist in clustering of high-dimensional data from a high-throughput experiment.
+Novel data mining task using pandas, scikit-learn preprocessing, and scikit-learn decomposition libraries to implement Phase I &amp; II of CRISP-DM in assistance of clustering high-dimensional data from a high-throughput experiment.
 
 # # Data Background
 Each file comprises measurements of 100 different genes (rows) in 100 different cells (columns). The experiment was repeated 100 times, on the same equipment, generating 100 separate files. The larger research goal is to create a predictive model for kidney disease. This initial project is the first step of implementing Python code to aggregate 100 files into one and save the aggregated file with the averaged results; then use PCA analysis to reduce dimensionality. This single file is the final output to be used for clustering in a future extension of this project. 
@@ -8,6 +8,11 @@ Each file comprises measurements of 100 different genes (rows) in 100 different 
 # # Process
 
 Step 1. Decompressed the zip data file and iterated through the directory to concatenate all files into one data frame. 
+
+# define directory name to locate files
+mydir = '/Users/ruteayalew/Downloads/assignment1/data'
+#/Users/ruteayalew/Downloads/assignment1/data/file_1.csv
+
 
 Step 2: Evaluated the data for missing values and variance.
 
